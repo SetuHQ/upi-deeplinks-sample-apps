@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">setu-sdk-testing</string>
+    <string name="generate_token">Generate Token</string>
+    <string name="generate_deeplink">Generate Deeplink</string>
+</resources>
