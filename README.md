@@ -1,3 +1,4 @@
-# upi-deeplinks-sample-apps
+# UPI DL sample apps
 
-Apps built in different frameworks that show the receommended way to integrate deeplinks within the merchant's ecosystem.
+Apps built in different frameworks that show the recommended way to integrate UPI deeplinks within the merchant's ecosystem.
+
