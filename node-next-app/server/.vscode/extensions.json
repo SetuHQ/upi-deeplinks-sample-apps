@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "Orta.vscode-jest",
+    "prisma.prisma",
+    "mongodb.mongodb-vscode"
+  ]
+}
