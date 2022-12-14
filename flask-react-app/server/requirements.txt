@@ -1,0 +1,4 @@
+flask
+setu
+python-dotenv
+flask_cors
