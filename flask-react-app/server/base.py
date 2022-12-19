@@ -5,7 +5,7 @@ from setu import Deeplink
 from setu.contract import SetuAPIException
 from dotenv import load_dotenv
 import os
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 load_dotenv()
 
 SCHEME_ID = os.getenv("SCHEME_ID")
@@ -57,6 +57,7 @@ def mock_func(billAmt, upi_id, platform_bill_id):
 
 
 @api.route('/')
+@cross_origin(supports_credentials=True)
 def my_profile():
     response_body = {
         "name": "HI!!!",
@@ -66,6 +67,7 @@ def my_profile():
 
 
 @api.route('/upi-pay', methods=["GET", "POST"])
+@cross_origin(supports_credentials=True)
 def upi():
     if request.method == "POST":
         data = request.get_json()
@@ -80,6 +82,7 @@ def upi():
 
 
 @api.route('/mock-payment', methods=["GET", "POST"])
+@cross_origin(supports_credentials=True)
 def mock_pay():
     if request.method == "POST":
         data = request.get_json()
