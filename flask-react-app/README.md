@@ -22,7 +22,7 @@ Create and add the following values in `.flaskenv` file in *SERVER FOLDER*
 
 Add the following values in `.env` file in *CLIENT FOLDER*
 
-`VITE_API_ENDPOINT`= http://localhost:5000
+`VITE_API_ENDPOINT`= http://localhost:4000
 
 
 
@@ -46,7 +46,7 @@ For windows users: <br/>`py -m venv env`<br/>
 
 #### Start server(flask)
 
-`flask run`
+`flask run -p 4000`
 
 #### Install dependencies React(client)
 
