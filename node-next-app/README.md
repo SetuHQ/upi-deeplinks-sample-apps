@@ -12,7 +12,7 @@ Follow this [documentation](https://docs.setu.co/payments/upi-deeplinks/quicksta
 
 Add the following values in `.env` file in *SERVER FOLDER*
 
-`DATABASE_URL`= XYZ
+`DATABASE_URL(MongoDB URI)`= XYZ
 `schemeID`= XYZ
 `secret`= XYZ
 `productID`= XYZ
