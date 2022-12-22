@@ -1,5 +1,9 @@
 # upi-deeplinks-sample-app made using Node and Vue
 
+## Preview
+<img width="1131" alt="Screenshot 2022-12-22 at 1 12 52 PM" src="https://user-images.githubusercontent.com/76595361/209083136-55da0e9e-5272-4889-9ab4-ad935af7e2e1.png">
+
+
 Sending Setu’s UPI payment links via Backend to frontend.
 
 Customers can make payment for desired product using upi.
