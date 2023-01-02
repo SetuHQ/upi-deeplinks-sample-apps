@@ -29,7 +29,21 @@ Add the following values in `.env` file in `client` folder
 `NEXT_PUBLIC_API_ENDPOINT`= http://localhost:4000
 
 
-### Running the app
+### Local development
+
+Start the client and server in two different instances
+
+### Running the client
+
+#### Install dependencies
+
+`npm install`
+
+#### Start client
+
+`npm run dev`
+
+### Running the server
 
 #### Install dependencies
 
