@@ -1,6 +1,12 @@
-# upi-deeplinks-sample-app made using Flask and React.
+# UPI deeplink sample app using Flask and React
+
+<img width="1131" alt="Screenshot 2022-12-22 at 1 12 52 PM" src="https://user-images.githubusercontent.com/76595361/209083136-55da0e9e-5272-4889-9ab4-ad935af7e2e1.png">
 
 Sending Setu’s UPI payment links via Backend to frontend.
+
+Client - React
+
+Server - Flask
 
 ## How to
 
@@ -28,8 +34,9 @@ Add the following values in `.env` file in *CLIENT FOLDER*
 
 ### Running the app
 
+#### Server
 
-#### Install dependencies Python(server)
+##### Install dependencies
 
 Make sure you have Pip installed and then in the project directory, you can run:<br/>
 
@@ -44,14 +51,16 @@ For windows users: <br/>`py -m venv env`<br/>
 
 `pip install -r requirements.txt`
 
-#### Start server(flask)
+##### Start server
 
 `flask run -p 4000`
 
-#### Install dependencies React(client)
+#### Client
+
+##### Install dependencies
 
 `yarn install`
 
-#### Start server(react)
+##### Start client
 
 `yarn dev`
